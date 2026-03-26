@@ -13,7 +13,7 @@ class VideoConfig:
     BASE_CHANNELS = 128
     USE_AMP       = True
 
-    INPUT_VIDEO   = r"C:\Users\soham\Downloads\Untitled design.mp4"
+    INPUT_VIDEO   = r"C:\Users\soham\Downloads\Untitled design (1).mp4"
     OUTPUT_VIDEO  = './evaluation_results/output_enhanced.mp4'
 
     MAX_FRAMES    = None    # None for full video

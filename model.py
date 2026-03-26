@@ -352,7 +352,7 @@ if __name__ == '__main__':
     with torch.no_grad():
         out = model(lr1, lr3)
 
-    print(f"\n✅ Forward pass successful!")
+    print(f"\ Forward pass successful!")
     print(f"   Input  shape : {lr1.shape}")   
     print(f"   Output shape : {out.shape}")  
     print(f"   Output range : [{out.min():.3f}, {out.max():.3f}]")
