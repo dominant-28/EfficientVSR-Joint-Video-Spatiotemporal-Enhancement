@@ -69,7 +69,7 @@ def enhance_video(input_video_path,progress=gr.Progress()):
     out_height = actual_h * 2    
 
     output_path = tempfile.mktemp(suffix='_enhanced.mp4')
-    fourcc      = cv2.VideoWriter_fourcc(*'mp4v')
+    fourcc = cv2.VideoWriter_fourcc(*'avc1')
     out_writer  = cv2.VideoWriter(
         output_path, fourcc,
         out_fps, (out_width, out_height)
